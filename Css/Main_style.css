@@ -11,9 +11,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
 body {
     font-family: 'DM Sans', sans-serif;
     background-color: #11172B;
+}
+
+.side_img {
+    /* border: 2px solid red; */
+    position: absolute;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    height: 288%;
+    z-index: -1;
+}
+
+.side_img img {
+    /* border: 2px solid green; */
+    position: absolute;
+    z-index: -1;
+    width: 19%;
 }
 
 
@@ -69,7 +87,6 @@ header {
     color: white;
 }
 
-
 /* NAVBAR ENDS */
 
 
@@ -87,9 +104,12 @@ header {
     justify-content: space-between;
     /* border: 2px solid yellow; */
     width: calc(100% - 258px);
+    margin-top: 2rem;
 }
 
 .hero_image {
+    position: relative;
+    margin-left: -4rem;
     /* border: 2px solid red; */
 }
 
@@ -97,6 +117,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-left: 4rem;
     /* border: 2px solid green; */
 }
 
@@ -172,3 +193,327 @@ header {
     position: relative;
     left: 10rem;
 }
+
+/* Hero section ends */
+
+
+/* Intro section starts */
+
+.introduction { 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 2px solid red */
+}
+
+.box {
+    /* border: 2px solid green; */
+    width: 80%;
+}
+
+.heading {
+    line-height: 180px ;
+    margin-top: 5rem;
+    font-size: 140px;
+    /* border: 2px solid red; */
+    color: var(--primary-color);
+    margin-bottom: 6rem;
+}
+
+.text {
+    font-style: normal;
+    font-size: 32px;
+    color: white;
+    margin-right: 10rem;
+    line-height: 42px;
+    letter-spacing: 0.16em;
+}
+
+/* Intro section ends */
+
+
+/* Cards section starts */
+
+.cards_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    /* border: 2px solid red; */
+    width: calc(100% - 258px);
+}
+
+.heading_container{
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+    /* border: 2px solid yellow; */
+}
+
+#bold{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    color: var(--primary-color);
+}
+
+#light{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 83px;
+    letter-spacing: 0.01em;
+    color:var(--secondary-color);
+}
+
+.cards_container{
+    display: flex;
+    justify-content: flex-start;
+    /* border: 2px solid white; */
+    height: 30rem;
+    /* padding: 1rem; */
+}
+
+.card{
+    height: 18rem;
+    margin-right: 3.8rem;
+    width: 20rem;
+    padding: 2.5rem 1rem;
+    background: linear-gradient(180deg, #323960 0%, #11172B 100%);
+    border-radius: 4px;
+    
+}
+
+.head{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--primary-color);
+}
+
+.sub_head{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: var(--secondary-color);
+
+}
+
+.content{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: white;
+    margin-top: 0.8rem;
+    opacity: 85%;
+
+}
+
+#c4{
+    margin-top: 8rem;
+    margin-right: 0rem;
+
+}
+
+#c2{
+    margin-top: 8rem;
+}
+
+/* Cards section Ends */
+
+/* Experience section starts */
+
+.experience_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: 2px solid white; */
+
+}
+
+.box_centre{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 258px);
+    /* border: 2px solid red; */
+
+}
+
+.exp_box{
+    /* border: 2px solid blue; */
+    display:flex;
+    margin-bottom: 8rem;
+}
+
+.exp_head{
+    /* border: 2px solid slateblue; */
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+    color: var(--primary-color);
+    margin-bottom: 10rem;
+    margin-top: 6rem;
+}
+
+.exp_sub{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--secondary-color);
+    margin-bottom: 4rem;
+}
+
+.exp_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    color: white;
+    margin-right: 14rem;
+}
+.exp_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    padding: 2rem;
+}
+.exp_img img{
+    height: 10rem;
+    width: 12rem;
+}
+
+/* Experience section ends */
+
+/* Project section starts */
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.project_container{
+    /* border: 2px solid blue; */
+    width: calc(100%-258px);
+}
+
+.project_box{
+    display: flex;
+    margin-bottom: 10rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    /* border: 2px solid green; */
+}
+
+.pro_info{
+    /* border: 2px solid white; */
+}
+
+.pro_img{
+    /* border: 2px solid pink; */
+}
+
+.project_box .pro_img img{
+    height: 28rem;
+}
+
+.project_head{
+    margin-bottom: 10rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.project_head1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+    color: var(--primary-color);
+
+}
+
+.project_head2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: white;
+}
+
+.headp_box{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+}
+
+.infop_box{
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.01em;
+    color: white;
+    margin-bottom: 2rem;
+
+}
+
+.view_more_box a{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.01em;
+    color: var(--secondary-color);
+}
+
+#circle_img{
+    margin-left: 1rem;
+    width: 2rem;
+}
+
+#p1{
+    flex-direction: row-reverse;
+}
+
+#p3{
+    flex-direction: row-reverse;
+}
+
+#box_2img{
+    width: 40rem;
+    margin-left: 4rem;
+}
+
+#box_3img{
+    width: 40rem;
+    margin-right: 6rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Project section ends */
+
