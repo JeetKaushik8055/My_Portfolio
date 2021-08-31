@@ -222,7 +222,7 @@ header {
 
 .text {
     font-style: normal;
-    font-size: 32px;
+    font-size: 24px;
     color: white;
     margin-right: 10rem;
     line-height: 42px;
@@ -378,7 +378,7 @@ header {
 .exp_text{
     font-style: normal;
     font-weight: normal;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 42px;
     letter-spacing: 0.01em;
     color: white;
@@ -469,7 +469,7 @@ header {
 }
 
 .infop_box{
-    font-size: 24px;
+    font-size: 18px;
     line-height: 31px;
     letter-spacing: 0.01em;
     color: white;
@@ -516,4 +516,171 @@ a{
 }
 
 /* Project section ends */
+
+.hobbies{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-bottom: 8rem;
+}
+
+.hobby_content{
+    margin-left: 8rem;
+    margin-top: 6rem;
+}
+
+
+.up_info p{
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+    color: var(--primary-color);
+    margin-bottom: 4rem;
+}
+
+li{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+#hobby_head{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+    color: var(--primary-color);
+    margin-bottom: 6rem;
+}
+
+ul{
+    margin-left: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+li{
+    padding: 10px;
+}
+
+.contact{
+    /* border: 2px solid blue; */
+    margin-left: 8rem;
+    margin-bottom: 4rem;
+}
+
+.contact_head{
+    /* border: 2px solid white; */
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+    color: var(--secondary-color);
+}
+
+.contact_sub_head{
+    /* border: 2px solid green; */
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    color: var(--primary-color);
+    margin-bottom: 4rem;
+}
+
+.contactpara{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+
+}
+
+.contpara{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #D0D0D0;   
+}
+
+.img_container{
+    /* border: 2px solid red; */
+    margin-left: 8rem;
+    display: flex;
+
+}
+
+.img_container img{
+    padding: 4px;
+    width: 2.4rem;
+    margin-right: 2rem;
+}
+
+#img_4{
+    margin-top: 4px;
+}
+
+#img_1:hover{
+    border-radius: 2px;
+    background-color: #E74D89;
+}
+#img_2:hover{
+    border-radius: 2px;
+    background-color: #0477B5;
+}
+#img_3:hover{
+    border-radius: 2px;
+    background-color: #C8178A;
+}
+#img_4:hover{
+    border-radius: 2px;
+    background-color: var(--primary-color);
+}
+
+#behance_up:hover{
+    border-radius: 2px;
+    background-color: #0057FF;
+}
+
+#behance_up{
+    /* margin-bottom: 4px; */
+}
+
+.hobby_side_img img{
+    /* border: 2px solid #B68AF4; */
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+    height: 200%;
+    z-index: -1;
+    margin-left: 68rem;
+}
+
+.fotter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    color: rgba(14, 230, 183, 0.75);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+hr{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    border-width: 0.5px;
+}
 
