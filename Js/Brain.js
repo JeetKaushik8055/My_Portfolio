@@ -1,4 +1,4 @@
-var text = ["Jeet Kaushik", "जीत कौशिक", "جیت کوشک۔","杰特考希克"];
+var text = ["Jeet Kaushik", "जीत कौशिक", "جیت کوشک۔"];
 var counter = 0;
 var elem = document.getElementById("heading-text"); //heading id
 var inst = setInterval(change, 800);

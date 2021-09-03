@@ -1,0 +1,29 @@
+.introduction { 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 2px solid red */
+}
+
+.box {
+    /* border: 2px solid green; */
+    width: 80%;
+}
+
+.heading {
+    line-height: 180px ;
+    margin-top: 5rem;
+    font-size: 140px;
+    /* border: 2px solid red; */
+    color: var(--primary-color);
+    margin-bottom: 6rem;
+}
+
+.text {
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+    margin-right: 10rem;
+    line-height: 42px;
+    letter-spacing: 0.16em;
+}

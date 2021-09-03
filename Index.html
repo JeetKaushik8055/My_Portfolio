@@ -6,24 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeet Kaushik</title>
-    <link rel="stylesheet" href="./Css/Main_style.css">
+    <link rel="stylesheet" href="./Css/Styles/Main_style.css">
+    <link rel="stylesheet" href="./Css/Styles/Navbar_style.css">
+    <link rel="stylesheet" href="./Css/Styles/HeroSection_style.css">
+    <link rel="stylesheet" href="./Css/Styles/IntroductionSection_style.css">
+    <link rel="stylesheet" href="./Css/Styles/CardSection_style.css">
+    <link rel="stylesheet" href="./Css/Styles/ExperienceSection_style.css">
+    <link rel="stylesheet" href="./Css/Styles/ProjectSection_style.css">
+    <link rel="stylesheet" href="./Css/Styles/HobbySection_style.css">
+
+    <link rel="stylesheet" href="./Css/Navbar_style_Responsive.css">
+    <link rel="stylesheet" href="./Css/HeroSection_style_Responsive.css">
+    <link rel="stylesheet" href="./Css/IntroductionSection_style_Responsive.css">
+    <link rel="stylesheet" href="./Css/CardSection_style_Responsive.css">
+    <link rel="stylesheet" href="./Css/ExperienceSection_style_Responsive.css">
+    <link rel="stylesheet" href="./Css/ProjectSection_style_Responsive.css">
+    <link rel="stylesheet" href="./Css/HobbySection_style_Responsive.css">
 
 </head>
 
 <body>
-    <div class="side_img"><img src="./Assests/LooperGroup.png" alt="animation"></div>
+
+    <!-- <img class="side_img" src="./Assests/LooperGroup.png" alt="animation"> -->
+
     <header>
-        <div class="navbar">
+        <div class="navbar global_section">
 
             <ul class="navbar_list">
                 <li class="item">
                     <a href="#">.HOME</a>
                 </li>
                 <li class="item">
-                    <a href="#">.ABOUT</a>
+                    <a href="#About">.ABOUT</a>
                 </li>
                 <li class="item">
-                    <a href="#">.CONTACT</a>
+                    <a href="#Contact">.CONTACT</a>
                 </li>
             </ul>
 
@@ -33,7 +50,7 @@
         </div>
     </header>
     <main class="main_container">
-        <section class="hero_section">
+        <section class="hero_section global_section">
             <div class="hero_image">
                 <img src="./Assests/portfolio_pic 1.png" alt="Portfolio_pic">
             </div>
@@ -62,7 +79,7 @@
                 </div>
             </div>
         </section>
-        <section class="introduction">
+        <section id="About" class="introduction global_section">
             <div class="box">
                 <p class="heading">I'm <span id="heading-text"></span>
                 </p>
@@ -78,42 +95,47 @@
                 </p>
             </div>
         </section>
-        <section class="cards_section">
+        <section class="cards_section global_section">
             <div class="container">
                 <div class="heading_container">
                     <p id="bold">#04</p>
                     <p id="light">Years;</p>
                 </div>
                 <div class="cards_container">
-                    <div class="card" id="c1">
-                        <p class="head">2021</p>
-                        <p class="sub_head">Freshman Year</p>
-                        <p class="content">In my first year of college I explored various feilds of desiging, devlopment
-                            and modelling</p>
+                    <div class="cards_container-top">
+                        <div class="card" id="c1">
+                            <p class="head">2021</p>
+                            <p class="sub_head">Freshman Year</p>
+                            <p class="content">In my first year of college I explored various feilds of desiging,
+                                devlopment
+                                and modelling</p>
+                        </div>
+                        <div class="card" id="c2">
+                            <p class="head">2020</p>
+                            <p class="sub_head">Higher Secondary</p>
+                            <p class="content">I completed my 12th standard PCM with an aggregate of <span
+                                    class="blue_text">93.6%</span></p>
+                        </div>
                     </div>
-                    <div class="card" id="c2">
-                        <p class="head">2020</p>
-                        <p class="sub_head">Higher Secondary</p>
-                        <p class="content">I completed my 12th standard PCM with an aggregate of <span
-                                class="blue_text">93.6%</span></p>
-                    </div>
-                    <div class="card" id="c3">
-                        <p class="head">2019</p>
-                        <p class="sub_head">Graphic Designing</p>
-                        <p class="content">In 11th standard I started doing graphic design, learning softwares as to
-                            improve my slkills.</p>
-                    </div>
-                    <div class="card" id="c4">
-                        <p class="head">2018</p>
-                        <p class="sub_head">Metriculation</p>
-                        <p class="content">I completed my 10th standard from CBSE Board with an aggregate of <span
-                                class="blue_text">94.8%</span></p>
+                    <div class="cards_container-bottom">
+                        <div class="card" id="c3">
+                            <p class="head">2019</p>
+                            <p class="sub_head">Graphic Designing</p>
+                            <p class="content">In 11th standard I started doing graphic design, learning softwares as to
+                                improve my skills.</p>
+                        </div>
+                        <div class="card" id="c4">
+                            <p class="head">2018</p>
+                            <p class="sub_head">Metriculation</p>
+                            <p class="content">I completed my 10th standard from CBSE Board with an aggregate of <span
+                                    class="blue_text">94.8%</span></p>
+                        </div>
                     </div>
                 </div>
             </div>
 
         </section>
-        <section class="experience_container">
+        <section class="experience_container global_section">
             <div class="box_centre">
                 <div class="exp_head">#Experience</div>
                 <div class="exp_box" id="exp1">
@@ -136,7 +158,7 @@
             </div>
 
         </section>
-        <section class="projects">
+        <section class="projects global_section">
             <div class="project_container">
                 <div class="project_head">
                     <p class='project_head1'>#Recent Projects</p>
@@ -146,7 +168,8 @@
                 <div class="project_box" id="p1">
                     <div class="pro_info">
                         <div class="headp_box">NFT MarketPlace Landing Page</div>
-                        <div class="infop_box">Landing Page designed for a NFT Marketplace, as vibrant as NFT masterpieces. This Design won best ui in DesignIt by Pixelate.
+                        <div class="infop_box">Landing Page designed for a NFT Marketplace, as vibrant as NFT
+                            masterpieces. This Design won best ui in DesignIt by Pixelate.
                         </div>
                         <div class="view_more_box">
                             <a target="_blank"
@@ -163,10 +186,13 @@
                     <div class="pro_info">
                         <div class="headp_box">FHOO- For Happiness of Others</div>
                         <div class="infop_box">
-                            A web app designed and developed for providing people <br>a platform to connectand help the needy. The web app<br> provides various services from blood and food bank to<br>adopting a virtual pet.
+                            A web app designed and developed for providing people <br>a platform to connectand help the
+                            needy. The web app<br> provides various services from blood and food bank to<br>adopting a
+                            virtual pet.
                         </div>
                         <div class="view_more_box">
-                            <a target='_blank' href="https://www.figma.com/file/BphBckSGLOhphjbP4d6ziM/Devsoc_project?node-id=0%3A1">
+                            <a target='_blank'
+                                href="https://www.figma.com/file/BphBckSGLOhphjbP4d6ziM/Devsoc_project?node-id=0%3A1">
                                 <span>View Work</span><img id='circle_img' src="./Assests/Group 4.png"
                                     alt="Loading"></a>
                         </div>
@@ -182,8 +208,8 @@
                         <div class="infop_box">Mechanism designed through Fusion360 to carry and launch
                             rockets/missiles. It can be easily attached to any uav/drone and can also be used for
                             droping supllies </div>
-                        <div class="view_more_box"><a href="https://a360.co/3BinvdM" target="_blank"><span>View Work</span><img id='circle_img'
-                                    src="./Assests/Group 4.png" alt="Loading"></a></div>
+                        <div class="view_more_box"><a href="https://a360.co/3BinvdM" target="_blank"><span>View
+                                    Work</span><img id='circle_img' src="./Assests/Group 4.png" alt="Loading"></a></div>
 
                     </div>
                     <div class="pro_img"><img id='box_3img' src="./Assests/Group 7084.png" alt="">
@@ -192,28 +218,28 @@
                 </div>
             </div>
         </section>
-        <section class="hobbies">
-            <div class="hobby_side_img">
+        <section class="hobbies global_section">
+            <!-- <div class="hobby_side_img">
                 <img src="./Assests/LooperGroup (1).png" alt="Loading image">
-            </div>
+            </div> -->
             <div class="hobby_content">
                 <div class="up_info">
-                <p id="hobby_head">#Hobbies</p>
-                <p>.Technical</p>
-                <ul class="tecnical">
-                    <li>Photo/Video Editing</li>
-                    <li>Developing UAV</li>
-                    <li>Graphic Designing</li>
-                </ul>
-                <p>.NonTechnical</p>
-                <ul class="nontech">
-                    <li>Chess/Rubix Cube</li>
-                    <li>Music/Guitar</li>
-                    <li>Football/Basket Ball</li>
-                </ul>
+                    <p id="hobby_head">#Hobbies</p>
+                    <p>.Technical</p>
+                    <ul class="tecnical">
+                        <li>Photo/Video Editing</li>
+                        <li>Developing UAV</li>
+                        <li>Graphic Designing</li>
+                    </ul>
+                    <p>.NonTechnical</p>
+                    <ul class="nontech">
+                        <li>Chess/Rubix Cube</li>
+                        <li>Music/Guitar</li>
+                        <li>Football/Basket Ball</li>
+                    </ul>
                 </div>
             </div>
-            <div class="contact">
+            <div id="Contact" class="contact">
                 <p class="contact_head">Don't be Shy</p>
                 <p class="contact_sub_head">Say Hi</p>
                 <p class="contactpara">Start a Project</p>
@@ -222,18 +248,19 @@
             <div class="img_container">
                 <div class="img_flex_start">
                     <a href="https://dribbble.com/Mr_Stark8055" target="_blank" rel="noopener noreferrer">
-                    <img id='img_1' src="./Assests/icon-park-outline_dribble.svg" alt="Loading_image"></a>
-                    <a href="https://www.linkedin.com/in/jeet-kaushik-b8a843207/" target="_blank" rel="noopener noreferrer">
-                    <img id='img_2'src="./Assests/ci_linkedin.svg" alt="Loading_image">
+                        <img id='img_1' src="./Assests/icon-park-outline_dribble.svg" alt="Loading_image"></a>
+                    <a href="https://www.linkedin.com/in/jeet-kaushik-b8a843207/" target="_blank"
+                        rel="noopener noreferrer">
+                        <img id='img_2' src="./Assests/ci_linkedin.svg" alt="Loading_image">
                     </a>
                     <a href="https://www.instagram.com/design_ocracy/" target="_blank" rel="noopener noreferrer">
-                    <img id='img_3'src="./Assests/bx_bxl-instagram-alt.png" alt="Loading_image">
+                        <img id='img_3' src="./Assests/bx_bxl-instagram-alt.png" alt="Loading_image">
                     </a>
                     <a href="https://www.behance.net/jeetkaushik" target="_blank" rel="noopener noreferrer">
-                    <img id='behance_up'src="./Assests/bx_bxl-behance.svg" alt="Loading_image">
+                        <img id='behance_up' src="./Assests/bx_bxl-behance.svg" alt="Loading_image">
                     </a>
                     <a href="https://github.com/JeetKaushik8055" target="_blank" rel="noopener noreferrer">
-                    <img id='img_4'src="./Assests/Vector.png" alt="Loading_image">
+                        <img id='img_4' src="./Assests/Vector.png" alt="Loading_image">
                     </a>
                 </div>
             </div>
