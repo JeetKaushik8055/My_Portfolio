@@ -1,24 +1,23 @@
 header {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
-    max-width: 1500px;
+    height: 8vh;
     margin: 0px auto;
 }
 
 .navbar {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: calc(100% - 258px);
     height: 100%;
+    width: 100%;
 }
 
 .navbar_list {
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
     display: flex;
     height: 100%;
     align-items: center;
@@ -41,6 +40,9 @@ header {
 }
 
 .navbar_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #11172B;
     border: 2px solid var(--primary-color);
     padding: 0.4rem 0.6rem;
@@ -48,7 +50,7 @@ header {
 }
 
 .navbar_btn a {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;

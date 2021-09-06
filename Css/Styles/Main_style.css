@@ -17,41 +17,17 @@ html{
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 body {
-    /* border: 2px solid blue; */
     font-family: 'DM Sans', sans-serif;
     background-color: #11172B;
 }
 
 .global_section{
     margin: 0px auto;
-    max-width: 1400px;
-
+    max-width: 1600px;
+    border: 4px solid white;
 }
 
-/* .side_img {
-    border: 2px solid red;
-    display: none;
-    position: absolute;
-    top:0;
-    right:0;
-    width: 18%;
-    z-index: -1;
-} */
-
-/* 
-.side_img img {
-    border: 2px solid green; 
-    position: absolute;
-    z-index: -1;
-    width: 19%;
-} */
-
-/* #c4{
-    margin-top: 8rem;
-    margin-right: 0rem;
-
+.child_section{
+    border: 2px solid aqua;
+    max-width: 1300px;
 }
-
-#c2{
-    margin-top: 8rem;
-} */

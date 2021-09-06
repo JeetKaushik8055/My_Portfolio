@@ -1,0 +1,18 @@
+@media all and (max-width: 1080px){
+    .cards_container{
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards_container-top,
+    .cards_container-bottom {
+    width: 100%;
+    justify-content: space-evenly;
+    }
+
+    .card:nth-of-type(2n) {
+        top: 0px;
+    }
+
+}

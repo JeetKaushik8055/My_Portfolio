@@ -1,29 +1,26 @@
 .introduction { 
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
+    height: 70vh;
     /* border: 2px solid red */
+    margin-top: 3rem;
 }
 
-.box {
-    /* border: 2px solid green; */
-    width: 80%;
+.intro-box {
+    width: 100%;
+    padding: 4px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-.heading {
-    line-height: 180px ;
-    margin-top: 5rem;
-    font-size: 140px;
-    /* border: 2px solid red; */
-    color: var(--primary-color);
-    margin-bottom: 6rem;
-}
-
-.text {
-    font-style: normal;
+.intro-text {
     font-size: 24px;
     color: white;
-    margin-right: 10rem;
-    line-height: 42px;
-    letter-spacing: 0.16em;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    padding: 4px;
 }

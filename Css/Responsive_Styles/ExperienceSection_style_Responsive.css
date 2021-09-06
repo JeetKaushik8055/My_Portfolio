@@ -1,0 +1,48 @@
+@media all and (max-width: 1080px){
+    .exp_img{
+        width: 18%;
+    }
+}
+
+@media all and (max-width: 950px){
+
+    .exp_img img{
+        height: 80%;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 800px){
+    .exp_box{
+        /* border: 2px solid blue; */
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .box_centre{
+        height: 200vh;
+    }
+
+    .side_text{
+        text-align: center;
+    }
+
+    .exp_container{
+        height: 180vh;
+    }
+
+    .exp_img img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .exp_img{
+        width: 40%;
+    }
+
+    .exp_head{
+        margin-bottom: 4rem;
+    }
+}

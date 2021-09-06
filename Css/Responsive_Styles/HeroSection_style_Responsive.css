@@ -1,0 +1,27 @@
+@media all and (max-width:1080px){
+    .hero_child{
+        height: 80%;
+    }
+
+    .hero_image{
+        width: 44%;
+    }
+}
+
+@media all and (max-width:950px)
+{
+    #box2 {
+        left: 4rem;
+    }
+
+    .info_box {
+        width: 64%;
+    }
+}
+
+@media all and (max-width: 800px){
+    .hero_image{
+        width: 44%;
+        height: 70%;
+    }
+}

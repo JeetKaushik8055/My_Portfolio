@@ -15,13 +15,13 @@
     <link rel="stylesheet" href="./Css/Styles/ProjectSection_style.css">
     <link rel="stylesheet" href="./Css/Styles/HobbySection_style.css">
 
-    <link rel="stylesheet" href="./Css/Navbar_style_Responsive.css">
-    <link rel="stylesheet" href="./Css/HeroSection_style_Responsive.css">
-    <link rel="stylesheet" href="./Css/IntroductionSection_style_Responsive.css">
-    <link rel="stylesheet" href="./Css/CardSection_style_Responsive.css">
-    <link rel="stylesheet" href="./Css/ExperienceSection_style_Responsive.css">
-    <link rel="stylesheet" href="./Css/ProjectSection_style_Responsive.css">
-    <link rel="stylesheet" href="./Css/HobbySection_style_Responsive.css">
+    <link rel="stylesheet" href="./Css/Responsive_Styles/Navbar_style_Responsive.css">
+    <link rel="stylesheet" href="./Css/Responsive_Styles/HeroSection_style_Responsive.css">
+    <link rel="stylesheet" href="./Css/Responsive_Styles/IntroductionSection_style_Responsive.css">
+    <link rel="stylesheet" href="./Css/Responsive_Styles/CardSection_style_Responsive.css">
+    <link rel="stylesheet" href="./Css/Responsive_Styles/ExperienceSection_style_Responsive.css">
+    <link rel="stylesheet" href="./Css/Responsive_Styles/ProjectSection_style_Responsive.css">
+    <link rel="stylesheet" href="./Css/Responsive_Styles/HobbySection_style_Responsive.css">
 
 </head>
 
@@ -29,8 +29,8 @@
 
     <!-- <img class="side_img" src="./Assests/LooperGroup.png" alt="animation"> -->
 
-    <header>
-        <div class="navbar global_section">
+    <header class="global_section">
+        <div class="navbar child_section">
 
             <ul class="navbar_list">
                 <li class="item">
@@ -49,8 +49,8 @@
             </div>
         </div>
     </header>
-    <main class="main_container">
-        <section class="hero_section global_section">
+    <section class="hero_section global_section">
+        <div class="child_section hero_child">
             <div class="hero_image">
                 <img src="./Assests/portfolio_pic 1.png" alt="Portfolio_pic">
             </div>
@@ -78,68 +78,68 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="About" class="introduction global_section">
-            <div class="box">
-                <p class="heading">I'm <span id="heading-text"></span>
-                </p>
-                <p class="text">Hello, I’m Jeet! a creative, passionate and dedicated Btech sophomore. As a creative
-                    developer and designer I take pride in exploring alternative solutions and experimenting with
-                    approaches to help my clients achieve success. I bring years
-                    of experience to the table that I’m ready to leverage for devloping and designing user centric
-                    products.<br><br>
-                    I started my devlopment journey in my freshman year in my university and fell in love with
-                    designing. I belive designing is one
-                    of the most powerful tool for devlopers. It makes devlopment of highly productive products easy and
-                    beautiful to look at.
-                </p>
+        </div>
+    </section>
+    <section id="About" class="introduction global_section">
+        <div class="intro-box child_section">
+            <p class="intro-text">Hello, I'm Jeet Kaushik a creative, passionate and dedicated Btech sophomore. As a
+                creative
+                developer and designer I take pride in exploring alternative solutions and experimenting with
+                approaches to help my clients achieve success. I bring years
+                of experience to the table that I’m ready to leverage for devloping and designing user centric
+                products.<br><br>
+                I started my devlopment journey in my freshman year in my university and fell in love with
+                designing. I belive designing is one
+                of the most powerful tool for devlopers. It makes devlopment of highly productive products easy and
+                beautiful to look at.
+            </p>
+        </div>
+    </section>
+    <section class="cards_section global_section">
+        <div class="card-container child_section">
+            <div class="card-heading_container">
+                <p id="bold">#04</p>
+                <p id="light">Years;</p>
             </div>
-        </section>
-        <section class="cards_section global_section">
-            <div class="container">
-                <div class="heading_container">
-                    <p id="bold">#04</p>
-                    <p id="light">Years;</p>
-                </div>
-                <div class="cards_container">
-                    <div class="cards_container-top">
-                        <div class="card" id="c1">
-                            <p class="head">2021</p>
-                            <p class="sub_head">Freshman Year</p>
-                            <p class="content">In my first year of college I explored various feilds of desiging,
-                                devlopment
-                                and modelling</p>
-                        </div>
-                        <div class="card" id="c2">
-                            <p class="head">2020</p>
-                            <p class="sub_head">Higher Secondary</p>
-                            <p class="content">I completed my 12th standard PCM with an aggregate of <span
-                                    class="blue_text">93.6%</span></p>
-                        </div>
+            <div class="cards_container">
+                <div class="cards_container-top">
+                    <div class="card" id="c1">
+                        <p class="head">2021</p>
+                        <p class="sub_head">Freshman Year</p>
+                        <p class="content">In my first year of college I explored various feilds of desiging,
+                            devlopment
+                            and modelling</p>
                     </div>
-                    <div class="cards_container-bottom">
-                        <div class="card" id="c3">
-                            <p class="head">2019</p>
-                            <p class="sub_head">Graphic Designing</p>
-                            <p class="content">In 11th standard I started doing graphic design, learning softwares as to
-                                improve my skills.</p>
-                        </div>
-                        <div class="card" id="c4">
-                            <p class="head">2018</p>
-                            <p class="sub_head">Metriculation</p>
-                            <p class="content">I completed my 10th standard from CBSE Board with an aggregate of <span
-                                    class="blue_text">94.8%</span></p>
-                        </div>
+                    <div class="card" id="c2">
+                        <p class="head">2020</p>
+                        <p class="sub_head">Higher Secondary</p>
+                        <p class="content">I completed my 12th standard PCM with an aggregate of <span
+                                class="blue_text">93.6%</span></p>
                     </div>
                 </div>
+                <div class="cards_container-bottom">
+                    <div class="card" id="c3">
+                        <p class="head">2019</p>
+                        <p class="sub_head">Graphic Designing</p>
+                        <p class="content">In 11th standard I started doing graphic design, learning softwares as to
+                            improve my skills.</p>
+                    </div>
+                    <div class="card" id="c4">
+                        <p class="head">2018</p>
+                        <p class="sub_head">Metriculation</p>
+                        <p class="content">I completed my 10th standard from CBSE Board with an aggregate of <span
+                                class="blue_text">94.8%</span></p>
+                    </div>
+                </div>
             </div>
-
-        </section>
-        <section class="experience_container global_section">
-            <div class="box_centre">
-                <div class="exp_head">#Experience</div>
+        </div>
+    </section>
+    <section class="experience_container global_section">
+        <div class="box_centre child_section">
+            <div class="exp_head">#Experience</div>
+            <div class="exp_container">
                 <div class="exp_box" id="exp1">
-                    <div>
+                    <div class="side_text">
                         <div class="exp_sub">Member of Design Team at ACM VIT, Vellore</div>
                         <div class="exp_text">It has been a great experience working and learning with a great team to
                             maintain and improve the design standards in the capter.</div>
@@ -147,7 +147,7 @@
                     <div class="exp_img"><img src="./Assests/Mask Group (1).png" alt=""></div>
                 </div>
                 <div class="exp_box" id="exp2">
-                    <div>
+                    <div class="side_text">
                         <div class="exp_sub">Member of Avionics Team at Team UAV</div>
                         <div class="exp_text">It was a great experience and opportunityto learn drone technology and
                             building UAVs. Here I experienced an amazing team and art of combining softwares and
@@ -156,99 +156,85 @@
                     <div class="exp_img"><img src="./Assests/UAV_PNG (1).png" alt=""></div>
                 </div>
             </div>
+        </div>
 
-        </section>
-        <section class="projects global_section">
-            <div class="project_container">
-                <div class="project_head">
-                    <p class='project_head1'>#Recent Projects</p>
-                    <p class='project_head2'>Here I have some of my selected recent projects<br>from diffrent feilds and
-                        domain.</p>
+    </section>
+    <section class="projects global_section">
+        <div class="project_container child_section">
+            <div class="project_head">
+                <p class='project_head1'>#Recent Projects</p>
+                <p class='project_head2'>Here I have some of my selected recent projects<br>from diffrent feilds and
+                    domain.</p>
+            </div>
+            <div class="project_box" id="p1">
+                <div class="pro_info">
+                    <div class="headp_box">NFT MarketPlace Landing Page</div>
+                    <div class="infop_box">
+                        Landing Page designed for a NFT Marketplace, as vibrant as NFT masterpieces. This Design won
+                        best ui in DesignIt by Pixelate.
+                    </div>
+                    <div class="view_more_box">
+                        <a target="_blank"
+                            href="https://www.figma.com/file/JYWgNbDCQ35k3LqL9Qqjyg/Landing_Page_maketplace?node-id=0%3A1">
+                            <span>View Work</span>
+                            <img id='circle_img' src="./Assests/Group 4.png" alt="Loading">
+                        </a>
+                    </div>
+
                 </div>
-                <div class="project_box" id="p1">
-                    <div class="pro_info">
-                        <div class="headp_box">NFT MarketPlace Landing Page</div>
-                        <div class="infop_box">Landing Page designed for a NFT Marketplace, as vibrant as NFT
-                            masterpieces. This Design won best ui in DesignIt by Pixelate.
-                        </div>
-                        <div class="view_more_box">
-                            <a target="_blank"
-                                href="https://www.figma.com/file/JYWgNbDCQ35k3LqL9Qqjyg/Landing_Page_maketplace?node-id=0%3A1">
-                                <span>View Work</span><img id='circle_img' src="./Assests/Group 4.png"
-                                    alt="Loading"></a>
-                        </div>
-
-                    </div>
-                    <div class="pro_img"><img src="./Assests/Frame 1 (14).png" alt="Loading">
-                    </div>
-                </div>
-                <div class="project_box" id='p2'>
-                    <div class="pro_info">
-                        <div class="headp_box">FHOO- For Happiness of Others</div>
-                        <div class="infop_box">
-                            A web app designed and developed for providing people <br>a platform to connectand help the
-                            needy. The web app<br> provides various services from blood and food bank to<br>adopting a
-                            virtual pet.
-                        </div>
-                        <div class="view_more_box">
-                            <a target='_blank'
-                                href="https://www.figma.com/file/BphBckSGLOhphjbP4d6ziM/Devsoc_project?node-id=0%3A1">
-                                <span>View Work</span><img id='circle_img' src="./Assests/Group 4.png"
-                                    alt="Loading"></a>
-                        </div>
-
-                    </div>
-                    <div class="pro_img"><img id='box_2img' src="./Assests/Frame 2 (4).png" alt="">
-
-                    </div>
-                </div>
-                <div class="project_box" id='p3'>
-                    <div class="pro_info">
-                        <div class="headp_box">UAV Missile launch and droper 3D mechanism</div>
-                        <div class="infop_box">Mechanism designed through Fusion360 to carry and launch
-                            rockets/missiles. It can be easily attached to any uav/drone and can also be used for
-                            droping supllies </div>
-                        <div class="view_more_box"><a href="https://a360.co/3BinvdM" target="_blank"><span>View
-                                    Work</span><img id='circle_img' src="./Assests/Group 4.png" alt="Loading"></a></div>
-
-                    </div>
-                    <div class="pro_img"><img id='box_3img' src="./Assests/Group 7084.png" alt="">
-
-                    </div>
+                <div class="pro_img" id="img_con-1">
+                    <img src="./Assests/Frame 1 (14).png" alt="Loading">
                 </div>
             </div>
-        </section>
-        <section class="hobbies global_section">
-            <!-- <div class="hobby_side_img">
-                <img src="./Assests/LooperGroup (1).png" alt="Loading image">
-            </div> -->
-            <div class="hobby_content">
-                <div class="up_info">
-                    <p id="hobby_head">#Hobbies</p>
-                    <p>.Technical</p>
-                    <ul class="tecnical">
-                        <li>Photo/Video Editing</li>
-                        <li>Developing UAV</li>
-                        <li>Graphic Designing</li>
-                    </ul>
-                    <p>.NonTechnical</p>
-                    <ul class="nontech">
-                        <li>Chess/Rubix Cube</li>
-                        <li>Music/Guitar</li>
-                        <li>Football/Basket Ball</li>
-                    </ul>
+            <div class="project_box" id='p2'>
+                <div class="pro_info">
+                    <div class="headp_box">FHOO- For Happiness of Others</div>
+                    <div class="infop_box">
+                        A web app designed and developed for providing people <br>a platform to connectand help the
+                        needy. The web app<br> provides various services from blood and food bank to<br>adopting a
+                        virtual pet.
+                    </div>
+                    <div class="view_more_box">
+                        <a target='_blank'
+                            href="https://www.figma.com/file/BphBckSGLOhphjbP4d6ziM/Devsoc_project?node-id=0%3A1">
+                            <span>View Work</span><img id='circle_img' src="./Assests/Group 4.png" alt="Loading"></a>
+                    </div>
+
+                </div>
+                <div class="pro_img" id="img_con-2"><img id='box_2img' src="./Assests/Frame 2 (4).png" alt="Loading">
+
                 </div>
             </div>
+            <div class="project_box" id='p3'>
+                <div class="pro_info">
+                    <div class="headp_box">UAV Missile launch and droper 3D mechanism</div>
+                    <div class="infop_box">Mechanism designed through Fusion360 to carry and launch
+                        rockets/missiles. It can be easily attached to any uav/drone and can also be used for
+                        droping supllies </div>
+                    <div class="view_more_box"><a href="https://a360.co/3BinvdM" target="_blank"><span>View
+                                Work</span><img id='circle_img' src="./Assests/Group 4.png" alt="Loading"></a></div>
+
+                </div>
+                <div class="pro_img"><img id='box_3img' src="./Assests/Group 7084.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="global_section hobbies">
+        <div class="child_section hobbies-container">
             <div id="Contact" class="contact">
                 <p class="contact_head">Don't be Shy</p>
                 <p class="contact_sub_head">Say Hi</p>
-                <p class="contactpara">Start a Project</p>
+                <p class="contact_para">Want to start a Project?</p>
                 <p class="contpara">jeetkaushik8055@gmail.com</p>
             </div>
             <div class="img_container">
                 <div class="img_flex_start">
                     <a href="https://dribbble.com/Mr_Stark8055" target="_blank" rel="noopener noreferrer">
-                        <img id='img_1' src="./Assests/icon-park-outline_dribble.svg" alt="Loading_image"></a>
+                        <img id='img_1' src="./Assests/icon-park-outline_dribble.svg" alt="Loading_image">
+                    </a>
+
                     <a href="https://www.linkedin.com/in/jeet-kaushik-b8a843207/" target="_blank"
                         rel="noopener noreferrer">
                         <img id='img_2' src="./Assests/ci_linkedin.svg" alt="Loading_image">
@@ -264,12 +250,10 @@
                     </a>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
     <hr>
-    <div class="fotter">
-        Jeetkaushik&copy2021
-    </div>
+    <div class="fotter">Jeetkaushik&copy2021</div>
 
     <script src="./Js/Brain.js"></script>
 
