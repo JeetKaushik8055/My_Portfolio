@@ -1,0 +1,15 @@
+@media all and (max-width: 600px){
+    .introduction{
+        height: 100vh;
+    }
+}
+
+@media all and (max-width: 415px){
+    .introduction{
+        height: 140vh;
+    }
+
+    .intro-text{
+        font-size: 18px;
+    }
+}

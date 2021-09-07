@@ -16,3 +16,26 @@
     }
 
 }
+
+@media all and (max-width: 600px){
+    .cards_container-top,
+    .cards_container-bottom {
+        gap: 56px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-container{
+        height: 220vh;
+    }
+
+    #bold{
+        font-size: 40px;
+    }
+
+    #light{
+        font-size: 40px;
+    }
+
+}

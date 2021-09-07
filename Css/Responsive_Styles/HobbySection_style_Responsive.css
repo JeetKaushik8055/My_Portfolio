@@ -1,0 +1,21 @@
+@media all and (max-width:600px){
+
+    .contact_head{
+        font-size: 32px;
+    }
+
+    .contact_sub_head{
+        font-size: 24px;
+        line-height: 20px;
+    }
+
+    .contact_para{
+        font-size: 18px;
+    }
+
+    .contpara{
+        font-size: 16px;
+        line-height: 12px;
+    }
+
+}

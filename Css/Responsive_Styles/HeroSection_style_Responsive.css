@@ -25,3 +25,48 @@
         height: 70%;
     }
 }
+
+@media all and (max-width: 600px){
+    .hero_child{
+        flex-direction: column;
+    }
+
+    .hero_section{
+        height: 170vh;
+    }
+
+    .hero_image{
+        width: 80%;
+        height: 80%;
+    }
+
+    .info{
+        /* border: 2px solid blue; */
+        width: 90% ;
+        /* text-align: left; */
+    }
+
+    .info_box{
+        width: 72%;
+    }
+
+    #hello{
+        font-size: 96px;
+    }
+
+    #heading_text{
+        font-size: 48px;
+    }
+}
+
+
+@media all and (max-width: 415px){
+    .hero_section{
+        margin-top: 0px;
+    }
+
+    .hero_image{
+        width: 80%;
+        height: 60%;
+    }
+}

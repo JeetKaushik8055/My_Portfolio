@@ -46,3 +46,27 @@
         margin-bottom: 4rem;
     }
 }
+
+@media all and (max-width: 415px){
+
+    .exp_box{
+        flex-direction: column-reverse;
+    }
+
+    .exp_head{
+        font-size: 32px;
+    }
+
+    .exp_sub{
+        font-size: 24px;
+    }
+
+    .exp_text{
+        font-size: 16px;
+    }
+
+    .exp_container{
+        justify-content: space-evenly;
+    }
+
+}

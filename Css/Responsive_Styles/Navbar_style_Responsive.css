@@ -1,3 +1,18 @@
-@media all and (max-width:1080){
-    
+@media all and (max-width:600px){
+    .navbar_btn{
+        display: none;
+    }
+
+    .navbar_list{
+        width: 100%;
+        /* border: 2px solid green; */
+    }
+
+}
+
+@media all and (max-width:415px){
+    .navbar_list{
+        margin: 24px;
+        justify-content: space-between;
+    }
 }

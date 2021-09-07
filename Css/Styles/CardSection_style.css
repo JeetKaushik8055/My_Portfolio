@@ -41,7 +41,7 @@
 .cards_container{
     display: flex;
     justify-content: space-around;
-    gap: 55px;
+    gap: 56px;
     /* border: 2px solid white; */
     height: auto;
     width: 100%;
